@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsUpdater.Core", "HostsUpdater.Core\HostsUpdater.Core.csproj", "{214C766E-9891-4FD3-9DBC-BBA007A3F2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsUpdater.Core.Tests", "HostsUpdater.Core.Tests\HostsUpdater.Core.Tests.csproj", "{46164E34-F0FB-4556-B208-0D94DDFD6D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsUpdater.ConsoleApp", "HostsUpdater.ConsoleApp\HostsUpdater.ConsoleApp.csproj", "{EE3E7EEC-9AA6-47BB-A494-C9CAFC38183E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{214C766E-9891-4FD3-9DBC-BBA007A3F2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214C766E-9891-4FD3-9DBC-BBA007A3F2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214C766E-9891-4FD3-9DBC-BBA007A3F2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214C766E-9891-4FD3-9DBC-BBA007A3F2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46164E34-F0FB-4556-B208-0D94DDFD6D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46164E34-F0FB-4556-B208-0D94DDFD6D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46164E34-F0FB-4556-B208-0D94DDFD6D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3E7EEC-9AA6-47BB-A494-C9CAFC38183E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3E7EEC-9AA6-47BB-A494-C9CAFC38183E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3E7EEC-9AA6-47BB-A494-C9CAFC38183E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3E7EEC-9AA6-47BB-A494-C9CAFC38183E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

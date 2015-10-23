@@ -1,0 +1,6 @@
+
+1.2.3.4	secure.netflix.com
+2.2.3.4	cbp-us.nccp.netflix.com
+3.2.3.4	webui.maigeservice.com
+4.2.3.4	fccs.maigeservice.com
+5.2.3.4	check.dns4me.net
