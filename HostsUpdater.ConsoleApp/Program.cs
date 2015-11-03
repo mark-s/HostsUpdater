@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using HostsUpdater.ConsoleApp.Properties;
 using HostsUpdaterService.Core;
 
@@ -10,6 +11,9 @@ namespace HostsUpdater.ConsoleApp
 
         private static void Main(string[] args)
         {
+            
+            var hostsFile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.System), @"drivers\etc\hosts");
+
             _getter = new GetFile();
 
             var uri = new Uri(Resources.BaseURI + Resources.ID);
@@ -18,7 +22,7 @@ namespace HostsUpdater.ConsoleApp
 
             // update the etc/hosts
             var updater = new WriteToHostsFile();
-            updater.AppendToFile(Resources.HostsFile, Resources.Divider, hostsText.Result);
+            updater.AppendToFile(hostsFile, Resources.Divider, hostsText.Result);
 
 
         }
