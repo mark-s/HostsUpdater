@@ -18,7 +18,7 @@ namespace HostsUpdaterService.Core
             topsection.Add(divider);
 
             // join the upper and new bottom in the style:
-            // <EXISTING TEST>
+            // <EXISTING TEXT>
             //     -- divider--
             // <textToAppend>
 
